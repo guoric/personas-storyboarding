@@ -5,7 +5,7 @@
     <!-- import javascript variables and functions -->
     <script src="app.js" defer></script>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="style.css" /> 
   </head>
 
   <!-- page content goes into <body> -->
@@ -94,18 +94,59 @@
       </ol>
     </div>
 
-      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
-      <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
-        <img class="gallery-item" src="./assets/roti.jpg" alt="fresh roti">
-        <img class="gallery-item" src="./assets/croissant.jpg" alt="croissant">
-        <img class="gallery-item" src="./assets/pide.jpg" alt="fresh pide bread">
-        <img class="gallery-item" src="./assets/kouign-amann.jpg" alt="kouign amann on the counter">
-        <img class="gallery-item" src="./assets/baklava.jpg" alt="fresh baklava">
+    <div id="personas">
+      <div id="header">
+        <h1>Personas</h1>
+        <p>These personas are meant to represent two types of people that commonly use the vending machine I observed.</p>
+      </div>
+      
+      <div class="personas-container">
+        <div id="studying">
+          <img class="persona-map" src="./assets/Empathy-Tony.jpg" alt="map of Tony">
+          <p>Tony is price-conscious, and one of the problem he faces is trying to figure out the prices of the items. He wants the interface to more visibly display the price so that he doesn't have to spend so much time inputting numbers. 
+            He also wants something that is a late night snack but also gives him enough energy to finish his assignments. </p>
+        </div>
+
+        <div id="rushed">
+          <img class="persona-map" src="./assets/Empathy-Ken.jpg" alt="map of Ken">
+          <p>The biggest challenge Ken faces is time — he needs the interface to be as intuitive and fast as possible so he can get a snack before class. Ken is a good subset of users of this interface. Many users use vending machines for their convenience, especially if they are time crunched. He is also one of those people who does not slow down to check the prices because he is in a rush. </p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="storyboard">
+      <div id="header">
+        <h1>Storyboard</h1>
+        <p>Below is a storyboard of Tony.</p>
       </div>
 
-      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <button onclick="updatePage()">Press this button to display fruit with sugar over 15g</button>
+      <div class="storyboard-container">
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0001.jpg">
+          <p>At 2 am, Tony is working hard on an essay due in the morning. He is tired and hungry, and he really needs some food to get her through.</p>
+        </div>
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0002.jpg">
+          <p>He checks his phone to see what food he could order, but none of the restaurants and stores in the area are open this late.</p>
+        </div>
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0003.jpg">
+          <p>Tony realizes that there is a vending machine in the lobby of the library. The machine has his favorite snack available.</p>
+        </div>
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0004.jpg">
+          <p>Tony taps his credit card on the credit card reader and uses the number pad to select the snack he wants. He receives his snack.</p>
+        </div>
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0005.jpg">
+          <p>Tony eats the snack and is feeling more energized.</p>
+        </div>
+        <div class="storyboard-item">
+          <img src="./assets/storyboard/frame-0006.jpg">
+          <p>With the energy from the snack, he is much more motivated and goes back to work.</p>
+        </div>
+      </div>
     </div>
   </body>
 
